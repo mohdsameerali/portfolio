@@ -1,0 +1,430 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+.box{
+	padding: 100px 0px 60px;
+	background: linear-gradient(to bottom, #ffcc66 10%, #ff99cc 50%);
+	height: 100vh;
+}
+
+.navbar-collapse{
+	display: flex;
+	justify-content:end ;
+	align-items: center;
+}
+.navbar {
+	font-family: "Lucida Console", "Courier New", monospace;
+
+	background: linear-gradient(to bottom, #ffcc66 5%, #ff99cc 5%);
+
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#navbar-brand{
+  background: -webkit-linear-gradient(#ffcc66, #ff99cc);
+  background: -webkit-linear-gradient(#eee, #333);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+	
+}
+.nav-link {
+	margin-right: 2rem;
+	background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ .nav-link :hover{
+ 	font-size: 300px;
+
+}
+
+
+
+.navbar-brand{
+	font-size: 35px;
+	font-weight: 600;
+	font-family:'ubuntu',sans-serif;
+}
+
+
+
+
+#leftcon{
+	color: #fdfdfd;
+
+	margin: auto 0px auto 0px;
+	/*border: 5px solid red;*/
+
+
+}
+span {
+	color: #80ffff;
+}
+
+
+
+#butt{
+	color: white;
+
+background-color: #99ffcc;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+
+#butt:hover{
+	background-color: #99ffff;
+}
+
+
+
+#butt1{
+	color: white;
+
+background-color: #99ffcc;
+
+margin-top: 20px;
+}
+
+
+#butt1:hover{
+	background-color: #99ffff;
+}
+
+
+
+#rightcon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*border: 2px solid  white;*/
+	height:655px;
+
+}
+
+
+#rightcon img{
+	height: 100%;
+	width: 80%;
+}
+
+
+/*<----------------------------------------------------------------------------about section start------------------------------------------------------------------------->*/
+
+.about , .Services, .projects, .myskills, .mycont-box{
+	padding: 100px 0px 60px;
+	/*color: #ff99cc ;*/
+	height: 100vh;
+	
+
+}
+
+.Services,.myskills{
+	background: linear-gradient(to bottom, #ffcc66 10%, #ff99cc 50%);
+
+} 
+.neha{
+	color: #ff99cc;
+}
+
+
+	
+
+
+#myimg img{
+	min-width: 90%;
+}
+
+.img-fluid{
+	border: 5px solid #fdfdfd;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 20px;
+
+}
+
+
+/*<----------------------------------------------------------------------------services section start------------------------------------------------------------------------->*/
+
+
+
+.myser{
+    
+
+	color: #fdfdfd ;
+}
+
+.shadcol{
+	z-index: ;
+box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    transition:.2s linear;
+}
+
+#dam{
+	height: 300px;
+	overflow: hidden;
+}
+
+#dam:hover{
+	background-color: #99ffff;
+}
+.card-body{
+	margin-top: 20px;
+}
+
+i{
+	margin-top: 30px;
+}
+
+
+
+/*<----------------------------------------------------------------------------projects section start------------------------------------------------------------------------->*/
+
+
+
+.myser1 h4{
+    
+
+	color: #ff99cc ;
+}
+
+.shadcol1{
+	color: white;
+box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+	background: linear-gradient(to bottom, #ffcc66 10%, #ff99cc 50%);
+
+    transition:.2s linear;
+}
+
+#dam1{
+	height: 300px;
+	overflow: hidden;
+}
+
+#dam1:hover{
+	background-color: #99ffff;
+}
+.card-body1{
+	margin-top: 20px;
+}
+
+
+
+
+/*<----------------------------------------------------------------------------skills section start------------------------------------------------------------------------->*/
+
+#skillrow{
+	margin-top: 50px;
+}
+
+
+#skill-col {
+	color: white;
+
+	
+}
+
+#skill-col2 span{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+
+}
+.skill hr{
+	background-color: white;
+}
+.skill h4{
+	color: white;
+}
+
+.info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+.parent-bar{
+	border-radius: 10px;
+	width: 100%;
+	height: 5px;
+	background-color:lightgrey;
+	
+}
+
+
+.child-bar1{
+	height: 5px;
+	background-color: rgb(146, 227, 169);
+	width: 75%;
+	border-radius: 5px;
+}
+.child-bar2{
+	height: 5px;
+	background-color:rgb(146, 227, 169);
+	width: 75%;
+	border-radius: 5px;
+}
+.child-bar3{
+	height: 5px;
+	background-color:rgb(146, 227, 169);
+	width: 50%;
+	border-radius: 5px;
+}
+.child-bar4{
+	height: 5px;
+	background-color:rgb(146, 227, 169);
+	width: 50%;
+	border-radius: 5px;
+}
+.child-bar5{
+	height: 5px;
+	background-color: rgb(146, 227, 169);
+	width: 50%;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+/*<----------------------------------------------------------------------------contact section start------------------------------------------------------------------------->*/
+
+
+
+#conrow{
+	margin-top: 50px;
+	
+}
+
+form{
+	margin: 0px 50px 0px 50px;
+}
+
+
+
+
+.col-6 input{
+	border: none;
+	border-bottom: 3px solid #ff99cc;
+	border-radius: 0px;
+}
+.form-group textarea{
+	border: 3px solid #ff99cc;
+
+}
+
+
+.mycon h4{
+	color: #ff99cc ;
+
+}
+.icons{
+	color: #ff99cc ;
+}
+/*<----------------------------------------------------------------------------media queary section start------------------------------------------------------------------------->*/
+
+
+
+
+@media screen and (max-width:1200px ){                            
+		.box{
+			height: 900px;
+			
+		}
+	}
+	
+
+
+
+	
+	@media screen and (max-width:1200px ){ 
+	.about{                            
+			height: 1000px;
+			
+		}
+	}  
+
+
+
+	@media screen and (max-width:1200px ){                             
+		.Services,.projects{
+			height: 1400px;
+			
+		}
+	}    
+@media screen and (max-width:800px ){                            
+		#rowser{
+			display: block;
+			margin: auto 0px auto 0px;
+			
+			
+		}
+	}  
+
+
+@media screen and (max-width:1000px ){                             
+		#dam,#dam1{
+			width: 450px;
+			height: 300px;
+			margin-top: 30px;
+			
+			
+			
+		}
+	}
+@media screen and (max-width:1000px ){                            
+		#Education{
+			height: 1000px;
+			
+			
+			
+			
+		}
+	}
+	@media screen and (max-width:1000px ){                            
+		#skill-col2{
+			margin-top: 70px;
+			
+			
+			
+			
+		}
+	}
+	@media screen and (max-width:1000px ){                          
+		#Contact{
+			height: 1000px;
+			
+			
+			
+			
+		}
+	}
+	@media screen and (max-width:1000px ){                          
+		#Contact{
+			height: 1000px;
+			
+			
+			
+			
+		}
+	}
+
+
+
+
+
